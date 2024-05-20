@@ -434,7 +434,7 @@ const Essays = () => {
                     "Q6 What is the difference between jpg, gif, png and svg images?"
                 }
             >
-                jpg (Joint Photographic Experts Group
+                jpg (Joint Photographic Experts Group)
                 <ul>
                     <li>created in 1986</li>
                     <li>little storage space</li>
@@ -504,6 +504,12 @@ const Essays = () => {
                     <ul>
                         <li>tend to be large files</li>
                     </ul>
+                </ul>
+                Sources:
+                <ul>
+                    <li>
+                        https://www.pagecloud.com/blog/web-images-png-vs-jpg-vs-gif-vs-svg
+                    </li>
                 </ul>
             </SingleEssay>
             <SingleEssay
