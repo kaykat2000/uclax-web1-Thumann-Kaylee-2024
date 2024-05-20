@@ -434,7 +434,77 @@ const Essays = () => {
                     "Q6 What is the difference between jpg, gif, png and svg images?"
                 }
             >
-                Answer 3 goes here.
+                jpg (Joint Photographic Experts Group
+                <ul>
+                    <li>created in 1986</li>
+                    <li>little storage space</li>
+                    <li>quick for uploading or downloading</li>
+                    <li>supports 16 million of color</li>
+                    <ul>
+                        <li>ideal for real-life images</li>
+                    </ul>
+                    <li>works well on websites and social media</li>
+                    <li>jpg are usually default on smartphones</li>
+                    <li>“lossy”</li>
+                    <ul>
+                        <li>
+                            unnecessary info is deleted permanently when
+                            compressed
+                        </li>
+                    </ul>
+                    <li>when files are converted, quality will be lost</li>
+                </ul>
+                gif (aka, Graphics Interchange Format)
+                <ul>
+                    <li>created in 1987</li>
+                    <li>“lossless”</li>
+                    <ul>
+                        <li>
+                            retains all data contained, but are smaller than
+                            jpgs
+                        </li>
+                        <ul>
+                            <li>accommodate only 256 indexed colors</li>
+                        </ul>
+
+                        <li>for small, simple graphic icons and animation</li>
+                    </ul>
+                    <ul></ul>
+                    png (Portable Network Graphics)
+                    <ul>
+                        <li>created in 1995</li>
+                        <li>256 indexed colors & transparency</li>
+                        <li>
+                            mostly used for static images, but can support
+                            animation
+                        </li>
+                        <li>“lossless”</li>
+                        <ul>
+                            <li>
+                                ideal for detailed graphics or files that are
+                                continuously edited
+                            </li>
+                        </ul>
+                    </ul>
+                </ul>
+                svg (Scalable Vector Graphics)
+                <ul>
+                    <li>created in 2001</li>
+                    <li>
+                        image remains crisp & clear at any resolution or size
+                    </li>
+                    <li>
+                        uses mathematically declared shapes & curves, not pixels
+                    </li>
+                    <li>
+                        can be animated, support transparency, and any combo of
+                        colors or gradient
+                    </li>
+                    <li>“lossless”</li>
+                    <ul>
+                        <li>tend to be large files</li>
+                    </ul>
+                </ul>
             </SingleEssay>
             <SingleEssay
                 question={
