@@ -470,21 +470,22 @@ const Essays = () => {
                         <li>for small, simple graphic icons and animation</li>
                     </ul>
                     <ul></ul>
-                    png (Portable Network Graphics)
+                    <li>transparency</li>
+                </ul>
+                png (Portable Network Graphics)
+                <ul>
+                    <li>created in 1995</li>
+                    <li>256 indexed colors</li>
+                    <li>alpha transparency (4 channels rgbA)</li>
+                    <li>
+                        mostly used for static images, but can support animation
+                    </li>
+                    <li>“lossless”</li>
                     <ul>
-                        <li>created in 1995</li>
-                        <li>256 indexed colors & transparency</li>
                         <li>
-                            mostly used for static images, but can support
-                            animation
+                            ideal for detailed graphics or files that are
+                            continuously edited
                         </li>
-                        <li>“lossless”</li>
-                        <ul>
-                            <li>
-                                ideal for detailed graphics or files that are
-                                continuously edited
-                            </li>
-                        </ul>
                     </ul>
                 </ul>
                 svg (Scalable Vector Graphics)
@@ -500,6 +501,8 @@ const Essays = () => {
                         can be animated, support transparency, and any combo of
                         colors or gradient
                     </li>
+                    <li>DOM: Interactivity and Animations</li>
+                    <li>Canvas</li>
                     <li>“lossless”</li>
                     <ul>
                         <li>tend to be large files</li>
