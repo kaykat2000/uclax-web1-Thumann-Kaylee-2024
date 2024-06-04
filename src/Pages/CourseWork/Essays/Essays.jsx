@@ -520,7 +520,97 @@ const Essays = () => {
                     "Q7 Define the following Agile roles: Product Manager, Scrum Master, UX Designer, Developer/Engineer, QA/SDET, and DevOps."
                 }
             >
-                Answer 3 goes here.
+                Project Manager
+                <ul>
+                    <li>Identifying project goals and scope</li>
+                    <li>
+                        Planning and documenting project tasks Ensuring
+                        deliverables are delivered on-time
+                    </li>
+                    <li>Managing all project resources</li>
+                    <li>Effectively communicating with stakeholders</li>
+                    <li>Eliminating blockers and potential risks</li>
+                    <li>
+                        Documenting projects process using various project
+                        management tools
+                    </li>
+                </ul>
+                Scrum Master
+                <ul>
+                    <li>
+                        Leading daily stand-up meetings, reviews, demos, and
+                        other project-related meetings
+                    </li>
+                    <li>Supporting team members in their tasks</li>
+                    <li>
+                        Coaching the team on Scrum principles and best practices
+                    </li>
+                    <li>
+                        Facilitating open discussion and conflict resolution
+                    </li>
+                    <li>Proactively identify and resolve issues</li>
+                    <li>
+                        Updating activities in a project management tracking
+                        tool
+                    </li>
+                    <li>
+                        A Scrum Master facilitates all the communication and
+                        collaboration between leadership and team players to
+                        ensure a successful outcome. 
+                    </li>
+                </ul>
+                UX Designer
+                <ul>
+                    <li>
+                        responsible for the look and feel of a product, website,
+                        or app
+                    </li>
+                    <li>
+                        Developer/Engineer create, test, and refine specialized
+                        computer applications.
+                    </li>
+                    <li>
+                        They primarily build programs and apps for consumer
+                        markets based on user needs. write code to make sites
+                        run
+                    </li>
+                </ul>
+                QA/SDET
+                <ul>
+                    <li>
+                        An Software Development Engineer in Test (SDET) is an
+                        amalgamation of a developer and a test engineer.
+                    </li>
+                    <li>
+                        someone who is involved in the project right from its
+                        planning stage and can help automate the testing
+                        process.
+                    </li>
+
+                    <li>
+                        someone who has complete knowledge of various testing
+                        processes and methodologies.
+                    </li>
+
+                    <li>
+                        well-versed in data management, bug reporting,
+                        troubleshooting and test environments.
+                    </li>
+                </ul>
+                DevOps
+                <ul>
+                    <li>Tests to insure reliability of software</li>
+                    <li>
+                        have a strong understanding of common system
+                        architecture, provisioning, and administration, but must
+                        also have experience with the traditional developer
+                        toolset and practices such as using source control,
+                        giving and receiving code reviews, writing unit tests,
+                        and familiarity with agile principles.
+                    </li>
+
+                    <li> They develop and mantain the software and hardware</li>
+                </ul>
             </SingleEssay>
         </EssaysStyled>
     );
