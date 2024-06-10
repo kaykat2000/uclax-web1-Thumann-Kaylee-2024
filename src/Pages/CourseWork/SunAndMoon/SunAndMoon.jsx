@@ -45,5 +45,7 @@ const SunAndMoonStyled = styled.div`
         padding: 20px;
         border: solid 20px teal;
         background-color: #044949;
+        max-width: 40%;
+        height: auto;
     }
 `;

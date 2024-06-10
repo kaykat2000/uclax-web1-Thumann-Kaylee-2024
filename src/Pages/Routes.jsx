@@ -14,6 +14,7 @@ import Home from "./Home/Home.jsx";
 import Staff from "./Staff/Staff.jsx";
 import Contact from "./Contact/Contact.jsx";
 import PHome from "./PHome/PHome.jsx";
+import Gallery from "./Gallery/Gallery.jsx";
 
 // course work page components
 import CourseWorkLayout from "./CourseWork/CourseWorkLayout.jsx";
@@ -28,10 +29,11 @@ const MyRoutes = () => {
             <MediaQueryProvider>
                 <Routes>
                     <Route element={<PagesLayout />}>
+                        <Route element={<PHome />} path="phome" />
+                        <Route element={<Gallery />} path="gallery" />
                         <Route element={<Home />} path="" />
                         <Route element={<Staff />} path="staff" />
                         <Route element={<Contact />} path="contact" />
-                        <Route element={<PHome />} path="phome" />
 
                         <Route
                             element={<CourseWorkLayout />}

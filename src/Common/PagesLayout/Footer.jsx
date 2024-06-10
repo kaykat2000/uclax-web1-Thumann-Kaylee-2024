@@ -9,10 +9,10 @@ const Footer = () => {
         <FooterStyled className="Footer">
             <Inset>
                 <div className="logo">{/* <SiteLogo /> */}</div>
-                <h2>
+                {/* <h2>
                     CrossFit Decimate :: Peace, Love, Unity, Fitness, Chill, and
                     Respect :: Colorado Springs, CO
-                </h2>
+                </h2> */}
                 <div className="copyright">
                     &copy; 2023. All rights reserved.
                 </div>
