@@ -5,7 +5,7 @@ import hpic2 from "./imageshomepage/Asset 2.png";
 import hpic3 from "./imageshomepage/Asset 4.png";
 import hpic4 from "./imageshomepage/Asset 5.png";
 import hpic5 from "./imageshomepage/dandelion@3x.png";
-import hpic6 from "./imageshomepage/butterfly2@3x.png";
+import hpic6 from "./imageshomepage/Asset 6.png";
 import hpic7 from "./imageshomepage/peony@3x.png";
 import ModalImage from "react-modal-image";
 
@@ -17,18 +17,14 @@ const PHome = () => {
     return (
         <HomeStyled>
             <h1>{/* MY PORTFOLIO */}</h1>
-            <body className="Background">
-                <img src={hpic4} alt="bg" />
+            {/* <div className="shared Background my-cover-bg">
                 <ModalImage
-                    //small={https://pin.it/1s7Wg8fp0}
-                    className={hpic5}
-                    large={hpic5}
-                    large={hpic6}
+                    small={hpic7}
                     large={hpic7}
                     alt="Lineart"
                     //alt="Hello World!"
                 />
-            </body>
+            </div> */}
             <div></div>
             {/* <phome>
                 <img id="pone" src="hpic1" />
@@ -39,24 +35,23 @@ const PHome = () => {
                 <img src={hpic1} alt="bg" />
             </body> */}
             {/* <img src={imgSrc} src2={hpic5} src3={hpic1} /> */}
-            <PSlideshow />;
-            <body className="Background">
+            <div className="shared Background">
                 <img src={hpic4} alt="bg" />
-                <ModalImage
-                //small={https://pin.it/1s7Wg8fp0}
-                // className={hpic5}
-                // large={hpic5}
-                // large={hpic6}
-                // large={hpic7}
-                // alt="Lineart"
-                //alt="Hello World!"
-                />
-            </body>
-            <body className="Background">
+                <div className="shared-two Background">
+                    <ModalImage
+                        small={hpic6}
+                        large={hpic7}
+                        alt="Lineart"
+                        //alt="Hello World!"
+                    />
+                </div>
+            </div>
+            <PSlideshow />;
+            <div className="shared Background">
                 <Inset>
                     <PTabbed />
                 </Inset>
-            </body>
+            </div>
         </HomeStyled>
     );
 };
@@ -69,14 +64,30 @@ const HomeStyled = styled.div`
         font-family: Mencken;
     }
 
-    body {
-        /* background-image: url("images/bg_2@3x-100.jpg"); */
-        background-color: #b0cfd8;
+    div.shared.my-cover-bg {
+        border: solid 3px red;
+        height: 500px;
+        background-image: url(${hpic4});
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center center;
+    }
+
+    div.shared {
+        /* display: flex; */
+        background-color: #b0cfd8;
         padding: 20px;
         max-width: 100%;
         height: auto;
+    }
+
+    div.shared-two {
+        /* display: flex; */
+        background-color: #b0cfd8;
+        padding: 20px;
+        max-width: 100%;
+        height: auto;
+        background-position: right right;
     }
 
     .flower img {
